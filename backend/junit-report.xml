@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="0.753">
+ <testsuite name="Validate Registration, Login, Profile, and Article Functionality" timestamp="2023-11-14T23:40:59" hostname="localhost" time="0.753" errors="0" tests="10" skipped="0" disabled="0" failures="0">
+  <testcase classname="Validate Registration, Login, Profile, and Article Functionality" name="should register a new user: POST /register" time="0.184" />
+  <testcase classname="Validate Registration, Login, Profile, and Article Functionality" name="should log in as the test user: POST /login" time="0.044" />
+  <testcase classname="Validate Registration, Login, Profile, and Article Functionality" name="should update the headline: PUT /headline" time="0.085" />
+  <testcase classname="Validate Registration, Login, Profile, and Article Functionality" name="should return the headline of the test user: GET /headline" time="0.04" />
+  <testcase classname="Validate Registration, Login, Profile, and Article Functionality" name="should return the headline of the requested user: GET /headline/user" time="0.044" />
+  <testcase classname="Validate Registration, Login, Profile, and Article Functionality" name="should return articles with newly posted article: POST /article" time="0.163" />
+  <testcase classname="Validate Registration, Login, Profile, and Article Functionality" name="should return all articles in the logged in user feed: GET /articles" time="0.085" />
+  <testcase classname="Validate Registration, Login, Profile, and Article Functionality" name="should return an article with correct pid: GET /articles/id" time="0.048" />
+  <testcase classname="Validate Registration, Login, Profile, and Article Functionality" name="should return all articles with correct author: GET /articles/id" time="0.043" />
+  <testcase classname="Validate Registration, Login, Profile, and Article Functionality" name="shoud logout the test user: PUT /logout" time="0.004" />
+ </testsuite>
+</testsuites>
